@@ -8,10 +8,10 @@ This project involves creating an interactive vulnerability management lab that 
 <h2>Utilities</h2>
 
 - [<b>Tenable Nessus Essentials</b>](https://www.tenable.com/products/nessus/nessus-essentials) 
-- [<b>VMWare</b>](
-- <b>Windows 10</b> ISO
-- <b>Mozilla Firefox</b>
-- <b>VLC Media Player</b>
+- [<b>VMWare</b>](https://www.vmware.com/content/vmware/vmware-published-sites/us/products/workstation-player/workstation-player-evaluation.html.html)
+- [<b>Windows 10</b> ISO](https://www.microsoft.com/en-us/software-download/windows10)
+- [<b>Mozilla Firefox</b>](https://ftp.mozilla.org/pub/firefox/releases/)
+- [<b>VLC Media Player</b>](https://www.videolan.org/vlc/releases/)
 
 <h2>Environments Used </h2>
 
