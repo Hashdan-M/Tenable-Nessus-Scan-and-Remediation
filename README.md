@@ -5,10 +5,13 @@ This project involves creating an interactive vulnerability management lab that 
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Software Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Tenable Nessus Essentials</b> 
+- <b>VMWare</b>
+- <b>Windows 10 iso</b>
+- <b>Mozilla Firefox</b>
+- <b>VLC Media Player</b>
 
 <h2>Environments Used </h2>
 
