@@ -1,7 +1,7 @@
-<h1>Vulnerability Management</h1>
+<h1>Vulnerability Management With Tenable Nessus</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project involves creating an interactive vulnerability management lab that simulates real-world cybersecurity scenarios. Utilizing industry-leading tools such as Tenable Nessus Essentials and VMWare virtualization software, we'll establish a secure environment. Inside a virtual machine running Windows 10, we'll intentionally install outdated software like Mozilla Firefox and VLC Media Player to simulate typical security vulnerabilities. Through comprehensive vulnerability scans, we'll identify and analyze potential risks within the system. The final phase of the project will concentrate on implementing effective remediation strategies, providing hands-on experience in cybersecurity defense strategies
 <br />
 
 
