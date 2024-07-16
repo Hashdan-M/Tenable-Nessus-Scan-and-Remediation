@@ -1,7 +1,7 @@
 <h1>Vulnerability Management With Tenable Nessus</h1>
 
 <h2>Description</h2>
-This project involves creating an interactive vulnerability management lab that simulates real-world cybersecurity scenarios. Utilizing industry-leading tools such as Tenable Nessus Essentials and VMWare virtualization software, we'll establish a secure environment. Inside a virtual machine running Windows 10, we'll intentionally install outdated software like Mozilla Firefox and VLC Media Player to simulate typical security vulnerabilities. Through comprehensive vulnerability scans, we'll identify and analyze potential risks within the system. The final phase of the project will concentrate on implementing effective remediation strategies, providing hands-on experience in cybersecurity defense strategies
+This project involves creating an interactive vulnerability management lab that simulates real-world cybersecurity scenarios. Using tools such as Tenable Nessus Essentials and VMWare virtualization software, we'll establish a secure environment for the lab. Inside a virtual machine running Windows 10, we'll install old deprecated software by Mozilla Firefox and VLC Media Player to simulate typical security vulnerabilities. Through comprehensive vulnerability scans, we'll identify and analyze potential risks within the system. The final phase of the project will concentrate on implementing effective remediation strategies, providing hands-on experience in cybersecurity defense strategies.
 <br />
 
 
