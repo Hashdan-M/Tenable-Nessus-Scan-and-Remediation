@@ -5,11 +5,11 @@ This project involves creating an interactive vulnerability management lab that 
 <br />
 
 
-<h2>Software Used</h2>
+<h2>Utilities</h2>
 
 - <b>Tenable Nessus Essentials</b> 
 - <b>VMWare</b>
-- <b>Windows 10 iso</b>
+- <b>Windows 10</b> ISO
 - <b>Mozilla Firefox</b>
 - <b>VLC Media Player</b>
 
