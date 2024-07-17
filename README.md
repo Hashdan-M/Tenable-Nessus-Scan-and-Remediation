@@ -34,31 +34,21 @@ On the host PC, run Command Prompt and ping the VM IP Adress to ensure that ther
 ![Ping_works](https://user-images.githubusercontent.com/108043108/177887412-f8078e7b-13a3-4480-b000-5ae84108cfab.JPG)
 
 <h2>Run scans</h2>
-
-<br />
-<br />
-<p align="center">
-<b>By this time Nessus Essentials successfully downloads. The first thing I want to do is create a new scan, then select Basic Network Scan.</b> <br/>
-</p>
-
-![Create_New_Scan](https://user-images.githubusercontent.com/108043108/177887661-793476e8-7e68-4c21-8983-8f955d7cff2e.JPG)
+Go to the Nessus Essentials web page and on the "My Scans" page, click "Create a new scan", then select "Basic Network Scan". 
+<br/>
+<br/>
 
 ![basic_network_scan](https://user-images.githubusercontent.com/108043108/177887672-2d955508-edf1-4735-b78a-2836a81d2c9f.JPG)
-
-
 <br />
 <br />
-<p align="center">
-<b>The newly created scan asks me to name the scan and select a target to scan. I configure it to scan the VM's IP address which is 192.168.50.185</b> <br/>
-</p>
+Give a name to the scan and in "Targets" enter the VM's IP address which in my case is 192.168.213.128.
 
 ![Scan_VM_IP](https://user-images.githubusercontent.com/108043108/177887914-87a2da10-be51-481c-a672-ec1104e3df7a.JPG)
 
 <br />
+Click "Save" and "Launch" to begin the scan.
 <br />
-<p align="center">
-<b>I launch the newly created scan and it immediately goes to work scanning for any known vulnerabilities. When the grey checkmark appears, the scan is complete.</b> <br/>
-</p>
+<br />
 
 ![Launch_newly_created_scan](https://user-images.githubusercontent.com/108043108/177888041-95c53001-b8d2-4355-9311-3ee2637dff94.JPG)
 
