@@ -88,17 +88,18 @@ The credentialed scan has revealed a total of 44 vulnerabilities and 348 total r
 
 <br />
 <br />
-<p align="center">
-<b>I want to see how powerful this Nessus Scanner is so I'm going to download a very old version of Firefox which probably has many vulnerabilities and see if Nessus can discover them (I'm sure it will.)</b><br/>
-</p>
+
+We will now download and install old deprecated software of Mozilla Firedox and VLC Media Player inside the VM and run our Nessus scanner to see how many more vulnerabilities it will detect.
+<br/>
+
 
 ![downloading_an_old_version_of_firefox](https://user-images.githubusercontent.com/108043108/177890787-5cd80be3-99a1-40a4-bddc-feb06ea9cda7.JPG)
 
 <br />
 <br />
-<p align="center">
-<b>After a deprecated version of Firefox is downloaded, I run another scan. We can see many new alerts and vulnerabilities just from Firefox! 68 Critical!</b> <br/>
-</p>
+After a deprecated version of Firefox is downloaded, we run another scan. We can see many new alerts and vulnerabilities just from Firefox! 68 Critical!
+<br/>
+
 
 ![Old_Firefox_Scan](https://user-images.githubusercontent.com/108043108/177890872-ed890db9-a15d-4de9-b3b3-6723dd161f22.JPG)
 
