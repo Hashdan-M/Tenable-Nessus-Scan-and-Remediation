@@ -24,7 +24,7 @@ Download and install [<b>VMWare Workstation Player</b>](https://www.vmware.com/p
 <b>The first thing I am going to do is Download Nessus Essentials, my Vulnerability management software. It takes a long time to download so I can accomplish a few things while it is downloading, like downloading Windows 10 on a Virtual Machine and configuring it (which also takes a long time)</b> <br/>
 </p>
 
-![Downloading Nessus](https://raw.githubusercontent.com/Hashdan-M/images/main/ipconfig.PNG?token=GHSAT0AAAAAACU4JCPDEFMSDBQCQ5HCJIZOZUXRSOQ)
+![ipconfig](https://raw.githubusercontent.com/Hashdan-M/images/main/ipconfig.PNG?token=GHSAT0AAAAAACU4JCPDEFMSDBQCQ5HCJIZOZUXRSOQ)
 
 ![Downloading Nessus](https://user-images.githubusercontent.com/108043108/177885108-9e637032-e965-4ecb-8166-b6931dc2dcff.JPG)
 
