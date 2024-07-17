@@ -21,17 +21,21 @@ On the VM PC, run Command Prompt and type "ipconfig" to get the IPv4 Address. Ou
 <br />
 <br />
 
-![ipconfig](https://raw.githubusercontent.com/Hashdan-M/images/main/ipconfig.PNG?token=GHSAT0AAAAAACU4JCPDPO342NBI3DNG66PIZUXSDMA)
+![ipconfig](https://raw.githubusercontent.com/Hashdan-M/images/main/ipconfig.PNG?token=GHSAT0AAAAAACU4JCPCXNYZS4GOO4EQPRKMZUX7XMQ)
 
 <br />
 Go to the VM PC and disable the Windows Firewall for all connections (Domain Profile, Private Profile & Public Profile) which would otherwise block all connection attempts from our host PC. 
 <br />
 <br />
+
+![firewall](https://raw.githubusercontent.com/Hashdan-M/images/main/firewall.PNG?token=GHSAT0AAAAAACU4JCPDON3J5N6RYGTPIIK4ZUX727A)
+
+<br />
 On the host PC, run Command Prompt and ping the VM IP Adress to ensure that there is successful connection.
 <br />
 <br />
 
-![Ping_works](https://user-images.githubusercontent.com/108043108/177887412-f8078e7b-13a3-4480-b000-5ae84108cfab.JPG)
+![ping](https://raw.githubusercontent.com/Hashdan-M/images/main/ping.PNG?token=GHSAT0AAAAAACU4JCPC5PA3T7UBLR75L2UOZUX7YKA)
 
 <h2>Run scans</h2>
 Go to the Nessus Essentials web page and on the "My Scans" page, click "Create a new scan", then select "Basic Network Scan". 
