@@ -13,8 +13,8 @@ This project involves creating an interactive vulnerability management lab that 
 - [<b>Mozilla Firefox</b>](https://ftp.mozilla.org/pub/firefox/releases/)
 - [<b>VLC Media Player</b>](https://www.videolan.org/vlc/releases/)
 
-<h2>Environments Used </h2>
-
+<h2>Install all software</h2>
+Download 
 - <b>Windows 10</b> (21H2)
 
 <h2>Program walk-through:</h2>
