@@ -14,7 +14,7 @@ This project involves creating an interactive vulnerability management lab that 
 
 <h2>Download software</h2>
 
-Download and install [<b>VMWare Workstation Player</b>](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html.html) and [<b>Windows 10</b> ISO](https://www.microsoft.com/en-us/software-download/windows10). Go to [<b>Tenable Nessus Essentials</b>](https://www.tenable.com/products/nessus/nessus-essentials) website and create an account. On the downloads page, select "Nessus" and choose the version which has your host operating system.
+Download and install [<b>VMWare Workstation Player</b>](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html.html) and [<b>Windows 10</b> ISO](https://www.microsoft.com/en-us/software-download/windows10). Go to [<b>Tenable Nessus Essentials</b>](https://www.tenable.com/products/nessus/nessus-essentials) website to register for an account. On the downloads page, select "Nessus" and choose the version which has your host operating system. Click on "Connect via SSL" and create username and password. Run VMWare and create new virtual machine using the Windows 10 ISO. Remember to click on "Customize Hardware" and select "Network Adapter" and change to "Bridged" so that the VM will be on the same network as the host machine. Install Windows 10 Pro on the VM
 
 <h2 align="center">Program walk-through</h2>
 
