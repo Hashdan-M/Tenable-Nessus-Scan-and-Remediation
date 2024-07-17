@@ -15,7 +15,7 @@ This project involves creating an interactive vulnerability management lab that 
 
 <h2>Links</h2>
 
-- [<b>VMWare Workstation Pro:</b>] (https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html)
+- [<b>VMWare</b>](https://www.vmware.com/content/vmware/vmware-published-sites/us/products/workstation-player/workstation-player-evaluation.html.html)
 - <b>Nessus Essentials:</b> https://www.tenable.com/products/nessus/nessus-essentials
 - <b>Windows 10 ISO:</b> https://www.microsoft.com/en-us/software-download/windows10
 
