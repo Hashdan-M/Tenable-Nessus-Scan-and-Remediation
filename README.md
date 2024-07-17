@@ -14,56 +14,18 @@ This project involves creating an interactive vulnerability management lab that 
 
 <h2>Download software</h2>
 
-Download and install [<b>VMWare Workstation Player</b>](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html.html) and [<b>Windows 10</b> ISO](https://www.microsoft.com/en-us/software-download/windows10). Go to [<b>Tenable Nessus Essentials</b>](https://www.tenable.com/products/nessus/nessus-essentials) website to register for an account. On the downloads page, select "Tenable Nessus" and choose the version which has your host operating system. Click on "Connect via SSL" and create username and password. Run VMWare and create new virtual machine using the Windows 10 ISO. Remember to click on "Customize Hardware" and select "Network Adapter" and change to "Bridged" so that the virtual machine will connect directly to the same network as the host machine. Install Windows 10 Pro on the virtual machine.
+Download and install [<b>VMWare Workstation Player</b>](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html.html) and [<b>Windows 10</b> ISO](https://www.microsoft.com/en-us/software-download/windows10). Go to [<b>Tenable Nessus Essentials</b>](https://www.tenable.com/products/nessus/nessus-essentials) website to register for an account. On the downloads page, select "Tenable Nessus" and choose the version which has your host operating system. Click on "Connect via SSL" and create username and password. Run VMWare and create new virtual machine using the Windows 10 ISO. Ensure to click on "Customize Hardware" and select "Network Adapter" and change to "Bridged" so that the virtual machine will connect directly to the same network as the host machine. Install Windows 10 Pro on the virtual machine.
 
 <h2>Run scans</h2>
-On the VM PC, run Command Prompt and type "ipconfig" to get the IPv4 Address
+On the VM PC, run Command Prompt and type "ipconfig" to get the IPv4 Address. My IP is 192.168.213.128.
+<br />
+<br />
 
 ![ipconfig](https://raw.githubusercontent.com/Hashdan-M/images/main/ipconfig.PNG?token=GHSAT0AAAAAACU4JCPDPO342NBI3DNG66PIZUXSDMA)
 
-![Downloading Nessus](https://user-images.githubusercontent.com/108043108/177885108-9e637032-e965-4ecb-8166-b6931dc2dcff.JPG)
-
 <br />
-<br />
-<p align="center">
-<b>For the Virtual Machine that I will be managing vulnerabilities on, I have to configure the network adapter to be bridged so it can be on the same network as my native. I do this because Nessus has to Secure Server Login (SSL) into the Virtual Machine and it's just easier if it's using my local network.</b> <br/>
-</p>
+Go to the VM PC and disable the Windows Firewall for all connections (Domain Profile, Private Profile & Public Profile) which would otherwise block all connection attempts from our host PC. 
 
-![Configure_Network_Adapters](https://user-images.githubusercontent.com/108043108/177885541-29039f1c-6217-43b4-92ca-86a60d092d3b.JPG)
-
-<br />
-<br />
-<p align="center">
-<b>Nessus at this point is still downloading and my Virtual Machine successfully downloads Windows 10, so I open up CMD to figure out it's IP address which I will need to be able to run vulnerability scans on Nessus. I named the VM Admin. The screenshot shows that the IP address is 192.168.50.185</b> <br/>
-</p>
-
-![VM_IP](https://user-images.githubusercontent.com/108043108/177885744-426519f2-bd27-406c-a6eb-f71ef5a6bdcb.JPG)
-
-<br />
-<br />
-<p align="center">
-<b>I try to ping the VM from my native computer to see if I can communicate with the VM. The reason I am doing this is because of I can't ping the VM then Nessus won't be able to as well and can't run its scans. As we can see the pings are timing out, meaning my native PC can't establish a connection with it at the moment.</b> <br/>
-</p>
-
-![trying_to_ping_VM_Fails](https://user-images.githubusercontent.com/108043108/177886078-cec7b98b-60da-47a6-8e70-838a649a456f.JPG)
-
-<br />
-<br />
-<p align="center">
-<b>The reason my PC can't establish a connection is because the VM has a firewall active and it is blocking all connection attempts (which is a good thing, but not for the purposes of this lab) so I have to disable the firewalls. This is something I would NEVER do in a production environment as it could and would be catastrophic, but this is a just a junk VM so no worries.</b> <br/>
-</p>
-
-![windows_firewall_disable](https://user-images.githubusercontent.com/108043108/177886413-df1ba042-8e42-4ff6-a004-0057ac793cd1.JPG)
-
-<br />
-<br />
-<p align="center">
-<b>I have to turn off all three firewalls which are circled at the top in Red, Blue, and Green. Circled in Yellow is showing that the firewalls are currently On. I have to turn them Off to be able to communicate properly with the VM.</b> <br/>
-</p>
-
-![Turning_off_Firewalls](https://user-images.githubusercontent.com/108043108/177886437-e6b4addf-99e3-455f-b46f-c3941a433109.JPG)
-
-<br />
 <br />
 <p align="center">
 <b>Now that the VM's firewall is disabled, I try to Ping it again from my native PC and this time it is successful.</b> <br/>
