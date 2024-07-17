@@ -25,11 +25,11 @@ On the VM PC, run Command Prompt and type "ipconfig" to get the IPv4 Address. My
 
 <br />
 Go to the VM PC and disable the Windows Firewall for all connections (Domain Profile, Private Profile & Public Profile) which would otherwise block all connection attempts from our host PC. 
-
 <br />
-<p align="center">
-<b>Now that the VM's firewall is disabled, I try to Ping it again from my native PC and this time it is successful.</b> <br/>
-</p>
+<br />
+On the host PC, run Command Prompt and ping the VM IP Adress to ensure that there is successful connection.
+<br />
+<br />
 
 ![Ping_works](https://user-images.githubusercontent.com/108043108/177887412-f8078e7b-13a3-4480-b000-5ae84108cfab.JPG)
 
