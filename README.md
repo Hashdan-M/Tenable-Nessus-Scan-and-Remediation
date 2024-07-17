@@ -19,7 +19,7 @@ Download and install [<b>VMWare Workstation Player</b>](https://www.vmware.com/p
 <h2>Run scans</h2>
 On the VM PC, run Command Prompt and type "ipconfig" to get the IPv4 Address
 
-![ipconfig](https://raw.githubusercontent.com/Hashdan-M/images/main/ipconfig.PNG?token=GHSAT0AAAAAACU4JCPDEFMSDBQCQ5HCJIZOZUXRSOQ)
+![ipconfig](https://raw.githubusercontent.com/Hashdan-M/images/main/ipconfig.PNG?token=GHSAT0AAAAAACU4JCPDPO342NBI3DNG66PIZUXSDMA)
 
 ![Downloading Nessus](https://user-images.githubusercontent.com/108043108/177885108-9e637032-e965-4ecb-8166-b6931dc2dcff.JPG)
 
