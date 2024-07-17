@@ -65,57 +65,18 @@ After a few minutes, the scan is completed. There is a total of 17 vulnerabiliti
 
 <br />
 <br />
-We have completed a non-credentialed scan. We will now configure the VM to be able to accept credentialed scans and rescan the VM to compare the results. I go to services.MSC to start this process and enable Remote Registry. This will allow Nessus to connect to the VM's registry and properly scan for vulnerabilities such as insecure connections or deprecated cipher suites. I'm following these steps from Nessus and what they recommend to actually do credentialed scans. There might be a better way to do this.
-<br/>
+We have completed a non-credentialed scan. We will now configure the VM to be able to accept credentialed scans and rescan the VM to compare the results. Tenable Nessus recommends several steps before running the credentialed scans. Click on the links below for a step-by-step guide
 
-
-![Services_MSC](https://user-images.githubusercontent.com/108043108/177888931-9dbd1224-5155-4129-ba09-4f495976a0e2.JPG)
-
-![Enabling_Remote_Registry](https://user-images.githubusercontent.com/108043108/177889042-0a885e18-bf64-4390-8f43-454bdaf79004.gif)
+- [Enable Remote Registry](https://success.trendmicro.com/dcx/s/solution/1039259-configuring-the-remote-registry-service-to-automatically-start-upon-log-on?language=en_US)
+- [Disable Windows User Account Control (UAC)](https://www.howtogeek.com/247/disable-user-account-control-uac-the-easy-way-on-windows/)
+- [Disable UAC remote restrictions](https://learn.microsoft.com/en-us/troubleshoot/windows-server/windows-security/user-account-control-and-remote-restriction)
 
 <br />
 <br />
-<p align="center">
-<b>From there I go to User Account Controls and disable it. I have to do this because this VM is not on a domain so I kind of have to do hacker stuff to get it to work properly. I would never do this in an actual organization or production environment.</b> <br/>
-</p>
+With the registry configured, it is now time to go back into Nessus and configure the scan I created. I have to add the Credentials to the scan so it can work properly. The credentials I'm talking about is the username and password of the VM. This will allow Nessus to use those credentials in places where it is required in the VM registry.
 
-![user_account_Settings](https://user-images.githubusercontent.com/108043108/177889466-907890fc-e67e-490b-8a17-b335263d0359.JPG)
 
-![User_Account_settings_configuration](https://user-images.githubusercontent.com/108043108/177889473-ba988135-ce62-4717-bf04-1e426ec8c4b6.gif)
 
-<br />
-<br />
-<p align="center">
-<b>Then I'm going to open the registry and add a key that is suppose to allow Nessus to connect in by further disabling user account controls.</b> <br/>
-</p>
-
-![Registry_editor](https://user-images.githubusercontent.com/108043108/177889663-24088363-2291-4af0-8ea9-6f6486fc82ad.JPG)
-
-<br />
-<br />
-<p align="center">
-<b>Now I navigate the Registry to the file that Nessus instructs us to (highlighted Yellow in the search bar) and I have to add a DWORD value and name it LocalAccountTokenFilterPolicy and give it a value of 1. </b> <br/>
-</p>
-
-![Creating_a_new_DWORD](https://user-images.githubusercontent.com/108043108/177889894-f94747fa-fa05-401f-82d4-1c9ec9faa57f.JPG)
-
-![DWORD_name](https://user-images.githubusercontent.com/108043108/177889904-aa294428-0864-4018-8cb5-b61da5e65478.JPG)
-
-![Edit_DWORD](https://user-images.githubusercontent.com/108043108/177889915-70e9814c-5167-460c-be85-10abf056fd8f.JPG)
-
-<br />
-<br />
-<p align="center">
-<b>After doing that I have to restart the VM so the changes can take effect.</b> <br/>
-</p>
-
-![Restart_The_VM](https://user-images.githubusercontent.com/108043108/177889955-2511a00a-9b59-4b4d-a9be-c2abda9869a6.JPG)
-
-<br />
-<br />
-<p align="center">
-<b>With the registry configured, it is now time to go back into Nessus and configure the scan I created. I have to add the Credentials to the scan so it can work properly. The credentials I'm talking about is the username and password of the VM. This will allow Nessus to use those credentials in places where it is required in the VM registry.</b> <br/>
-</p>
 
 ![Configure_Nessus](https://user-images.githubusercontent.com/108043108/177890138-e6420231-4ce8-4a2d-99fb-e1e992da6ebb.JPG)
 
