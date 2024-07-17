@@ -14,7 +14,8 @@ This project involves creating an interactive vulnerability management lab that 
 - [<b>VLC Media Player</b>](https://www.videolan.org/vlc/releases/)
 
 <h2>Install software</h2>
-Download [VMWare](https://www.vmware.com/content/vmware/vmware-published-sites/us/products/workstation-player/workstation-player-evaluation.html.html)
+Download 
+[<b>VMWare</b>](https://www.vmware.com/content/vmware/vmware-published-sites/us/products/workstation-player/workstation-player-evaluation.html.html)
 - <b>Windows 10</b> (21H2)
 
 <h2>Program walk-through:</h2>
