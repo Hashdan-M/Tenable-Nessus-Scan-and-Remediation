@@ -4,7 +4,6 @@
 This project involves creating an interactive vulnerability management lab that simulates real-world cybersecurity scenarios. We will use Tenable Nessus Essentials as the vulnerability scanner and VMWare as the virtualization software. Inside a virtual machine running Windows 10, we'll install old deprecated software by Mozilla Firefox and VLC Media Player to simulate typical security vulnerabilities. Through comprehensive vulnerability scans, we'll identify and analyze potential risks within the system. The final phase of the project will concentrate on implementing effective remediation strategies, providing hands-on experience in vulnerability management.
 <br />
 
-
 <h2>Utilities</h2>
 
 - [<b>Tenable Nessus Essentials</b>](https://www.tenable.com/products/nessus/nessus-essentials) 
@@ -15,9 +14,7 @@ This project involves creating an interactive vulnerability management lab that 
 
 <h2>Download software</h2>
 
-Download and install [<b>VMWare Worksation Player</b>](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html.html)
-Download and install [<b>Windows 10</b> ISO](https://www.microsoft.com/en-us/software-download/windows10)
-Go to [<b>Tenable Nessus Essentials</b>](https://www.tenable.com/products/nessus/nessus-essentials) and create account to register for an Activation Code. On the downloads page, select "Nessus" and choose the version which has Windows
+Download and install [<b>VMWare Worksation Player</b>](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html.html) and [<b>Windows 10</b> ISO](https://www.microsoft.com/en-us/software-download/windows10). Go to [<b>Tenable Nessus Essentials</b>](https://www.tenable.com/products/nessus/nessus-essentials) and create an account to register for an Activation Code. On the downloads page, select "Nessus" and choose the version which has Windows
 
 <h2 align="center">Program walk-through</h2>
 
