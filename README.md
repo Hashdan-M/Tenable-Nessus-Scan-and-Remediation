@@ -58,25 +58,16 @@ Click "Save" and "Launch" to begin the scan.
 
 <br />
 <br />
-<p align="center">
-<b>Lets look at the results! It is showing 33 results, 32 of which are info and 1 low. If this was an actual production environment these most likely would be left alone. The Info results are probably because some things don't have proper credentials and are not essentially vulnerabilities</b> <br/>
-</p>
+After a few minutes, the scan is completed. There is a total of 17 vulnerabilities and 32 total results, 30 of which are info. The info results are usually not vulnerabilities but still something that you should be aware of. There is 1 medium vulnerability named "SMB Signing not required" which may be explored and remediated.
+<br/>
 
 ![Results_Of_Scan](https://user-images.githubusercontent.com/108043108/177888196-3141c52f-df79-4c58-9fee-5daa68d78c5b.gif)
 
 <br />
 <br />
-<p align="center">
-<b>Looking at one of the INFO results you can see that the Target Credential Status By Authentication Procotol was triggered because we did not actually provide any credentials for this scan.</b> <br/>
-</p>
+Next thing I do is configure the VM to be able to accept authenticated scans and provide credentials to Nessus. I will then rescan the VM and compare the results. I go to services.MSC to start this process and enable Remote Registry. This will allow Nessus to connect to the VM's registry and properly scan for vulnerabilities such as insecure connections or deprecated cipher suites. I'm following these steps from Nessus and what they recommend to actually do credentialed scans. There might be a better way to do this.
+<br/>
 
-![No_credentials_Given](https://user-images.githubusercontent.com/108043108/177888648-5679c8c1-e8ce-47e3-a424-067375964054.JPG)
-
-<br />
-<br />
-<p align="center">
-<b>Next thing I do is configure the VM to be able to accept authenticated scans and provide credentials to Nessus. I will then rescan the VM and compare the results. I go to services.MSC to start this process and enable Remote Registry. This will allow Nessus to connect to the VM's registry and properly scan for vulnerabilities such as insecure connections or deprecated cipher suites. I'm following these steps from Nessus and what they recommend to actually do credentialed scans. There might be a better way to do this.</b> <br/>
-</p>
 
 ![Services_MSC](https://user-images.githubusercontent.com/108043108/177888931-9dbd1224-5155-4129-ba09-4f495976a0e2.JPG)
 
