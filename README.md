@@ -89,7 +89,7 @@ The credentialed scan has revealed a total of 44 vulnerabilities and 348 total r
 <br />
 <br />
 
-We will now download and install old deprecated software of Mozilla Firedox and VLC Media Player inside the VM and run our Nessus scanner to see how many more vulnerabilities it will detect.
+We will now download and install old deprecated software of Mozilla Firefox (Version 1.0) and VLC Media Player (Version 2.0.0) inside the VM and run our Nessus scanner to see how many more vulnerabilities it will detect.
 <br/>
 
 
@@ -97,7 +97,7 @@ We will now download and install old deprecated software of Mozilla Firedox and 
 
 <br />
 <br />
-After a deprecated version of Firefox is downloaded, we run another scan. We can see many new alerts and vulnerabilities just from Firefox! 68 Critical!
+This time the scan has revealed a total of 48 vulnerablilities and a whopping 585 total results!
 <br/>
 
 
