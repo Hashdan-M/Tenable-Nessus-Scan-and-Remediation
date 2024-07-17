@@ -8,16 +8,16 @@ This project involves creating an interactive vulnerability management lab that 
 <h2>Utilities</h2>
 
 - [<b>Tenable Nessus Essentials</b>](https://www.tenable.com/products/nessus/nessus-essentials) 
-- [<b>VMWare</b>](https://www.vmware.com/content/vmware/vmware-published-sites/us/products/workstation-player/workstation-player-evaluation.html.html)
+- [<b>VMWare</b>](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html.html)
 - [<b>Windows 10</b> ISO](https://www.microsoft.com/en-us/software-download/windows10)
 - [<b>Mozilla Firefox</b>](https://ftp.mozilla.org/pub/firefox/releases/)
 - [<b>VLC Media Player</b>](https://www.videolan.org/vlc/releases/)
 
-<h2>Links</h2>
+<h2>Download software</h2>
 
-- [<b>VMWare</b>](https://www.vmware.com/content/vmware/vmware-published-sites/us/products/workstation-player/workstation-player-evaluation.html.html)
-- <b>Nessus Essentials:</b> https://www.tenable.com/products/nessus/nessus-essentials
-- <b>Windows 10 ISO:</b> https://www.microsoft.com/en-us/software-download/windows10
+Download and install [<b>VMWare Worksation Player</b>](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html.html)
+Download and install [<b>Windows 10</b> ISO](https://www.microsoft.com/en-us/software-download/windows10)
+Go to [<b>Tenable Nessus Essentials</b>](https://www.tenable.com/products/nessus/nessus-essentials) and create account to register for an Activation Code. On the downloads page, select "Nessus" and choose the version which has Windows
 
 <h2 align="center">Program walk-through</h2>
 
