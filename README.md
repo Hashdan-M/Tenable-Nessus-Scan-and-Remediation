@@ -1,7 +1,7 @@
 <h1>Vulnerability Management With Tenable Nessus</h1>
 
 <h2>Description</h2>
-This project involves creating an interactive vulnerability management lab that simulates real-world cybersecurity scenarios. We will use Tenable Nessus Essentials as the vulnerability scanner and VMWare as the virtualization software. Inside a virtual machine running Windows 10, we'll install old deprecated software by Mozilla Firefox and VLC Media Player to simulate typical security vulnerabilities. Through comprehensive vulnerability scans, we'll identify and analyze potential risks within the system. The final phase of the project will concentrate on implementing effective remediation strategies, providing hands-on experience in vulnerability management.
+This project involves creating an interactive vulnerability management lab that simulates real-world cybersecurity scenarios. We will use Tenable Nessus Essentials as the vulnerability management software and VMWare as the virtualization software. Inside a virtual machine running Windows 10, we'll install old deprecated software by Mozilla Firefox and VLC Media Player to simulate typical security vulnerabilities. Through comprehensive vulnerability scans, we'll identify and analyze potential risks within the system. The final phase of the project will concentrate on implementing effective remediation strategies, providing hands-on experience in vulnerability management.
 <br />
 
 <h2>Utilities</h2>
@@ -17,12 +17,7 @@ This project involves creating an interactive vulnerability management lab that 
 Download and install [<b>VMWare Workstation Player</b>](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html.html) and [<b>Windows 10</b> ISO](https://www.microsoft.com/en-us/software-download/windows10). Go to [<b>Tenable Nessus Essentials</b>](https://www.tenable.com/products/nessus/nessus-essentials) website to register for an account. On the downloads page, select "Tenable Nessus" and choose the version which has your host operating system. Click on "Connect via SSL" and create username and password. Run VMWare and create new virtual machine using the Windows 10 ISO. Remember to click on "Customize Hardware" and select "Network Adapter" and change to "Bridged" so that the virtual machine will connect directly to the same network as the host machine. Install Windows 10 Pro on the virtual machine.
 
 <h2>Run scans</h2>
-![ipconfig](https://raw.githubusercontent.com/Hashdan-M/images/main/ipconfig.PNG?token=GHSAT0AAAAAACU4JCPDEFMSDBQCQ5HCJIZOZUXRSOQ)
-
-
-<p align="center">
-<b>The first thing I am going to do is Download Nessus Essentials, my Vulnerability management software. It takes a long time to download so I can accomplish a few things while it is downloading, like downloading Windows 10 on a Virtual Machine and configuring it (which also takes a long time)</b> <br/>
-</p>
+On the VM PC, run Command Prompt and type "ipconfig" to get the IPv4 Address
 
 ![ipconfig](https://raw.githubusercontent.com/Hashdan-M/images/main/ipconfig.PNG?token=GHSAT0AAAAAACU4JCPDEFMSDBQCQ5HCJIZOZUXRSOQ)
 
