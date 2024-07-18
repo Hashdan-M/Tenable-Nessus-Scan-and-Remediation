@@ -105,28 +105,22 @@ Many of the critical alerts are from Firefox with 84 critical vulnerabilities an
 We will now start the process of remediating the vulnerabilities by updating our Windows 10 to the latest version and uninstalling and deleting Firefox and VLC.
 <br />
 
-![Fixing_Vulnerabilities_Uninstall_Firefox](https://user-images.githubusercontent.com/108043108/177891363-17bdc0ea-c872-434f-95a6-4bf6e4694ddf.JPG)
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04" title=""><img src="https://live.staticflickr.com/65535/53863912822_a45e8c760f_b.jpg" width="1024" height="768" alt=""/></a>
 
-<br />
-<br />
-
-![Remediating_Vulnerabilities_Updating_WIndows_1](https://user-images.githubusercontent.com/108043108/177891464-75d2b603-cadf-4923-bc1f-61409b11169d.gif)
-
-![Remediating_Vulnerabilities_Updating_Windows](https://user-images.githubusercontent.com/108043108/177891436-a7b26e21-8376-4650-aaee-aaf4bc2e451e.JPG)
-
-<br />
 <br />
 We will run a final Nessus scan to see the results after remediation.
 <br/>
+<br/>
 
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04" title=""><img src="https://live.staticflickr.com/65535/53863917122_e3a96c441c_b.jpg" width="992" height="209" alt=""/></a>
 
-![VM_Up_To_date](https://user-images.githubusercontent.com/108043108/177891501-767d6764-8e4a-4bd0-85cc-6b70e48c62aa.JPG)
-
-<br />
 <br />
 Most of the critical vulnerabilities have been remediated, though there is still 2 critical vulnerabilities. One of the vulnerabilities is due to the Windows browser still using Internet Explorer. We should change to Microsoft Edge to fix this issue.
 <br />
 <br />
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04" title=""><img src="https://live.staticflickr.com/65535/53865075143_0588ff61a8_b.jpg" width="917" height="739" alt=""/></a>
+
 Another critical vulnerability is from Microsoft 365 which may be remediated after running another Windows Update or installing the update manually.
 
 ![After_Vulnerability_Remediation](https://user-images.githubusercontent.com/108043108/177891719-3066c9bb-38dd-4b10-b8bb-6f9dd8a45a09.JPG)
