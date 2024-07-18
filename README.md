@@ -115,15 +115,15 @@ We will run a final Nessus scan to see the results after remediation.
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04" title=""><img src="https://live.staticflickr.com/65535/53863917122_e3a96c441c_b.jpg" width="992" height="209" alt=""/></a>
 
 <br />
-Most of the critical vulnerabilities have been remediated, though there is still 2 critical vulnerabilities. One of the vulnerabilities is due to the Windows browser still using Internet Explorer. We should change to Microsoft Edge to fix this issue.
+Most of the critical vulnerabilities have been remediated, though there is still 2 critical vulnerabilities. One of the vulnerabilities is due to the Windows browser still using Internet Explorer which is no longer supported. We should change to Microsoft Edge to fix this issue.
 <br />
 <br />
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04" title=""><img src="https://live.staticflickr.com/65535/53865075143_0588ff61a8_b.jpg" width="917" height="739" alt=""/></a>
 
-Another critical vulnerability is from Microsoft 365 which may be remediated after running another Windows Update or installing the update manually.
+Another critical vulnerability is from Microsoft 365 which may be remediated after upgrading the app in the Microsoft Store.
 
-![After_Vulnerability_Remediation](https://user-images.githubusercontent.com/108043108/177891719-3066c9bb-38dd-4b10-b8bb-6f9dd8a45a09.JPG)
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04" title=""><img src="https://live.staticflickr.com/65535/53864834811_ee71c8f4f4_b.jpg" width="936" height="624" alt=""/></a>
 
 <br />
 <br />
