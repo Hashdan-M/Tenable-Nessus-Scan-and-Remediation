@@ -89,7 +89,7 @@ We will now download and install old deprecated software of [Mozilla Firefox](ht
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04/53865035303/in/dateposted-public/" title="install firefox and vlc"><img src="https://live.staticflickr.com/65535/53865035303_d51cc0350f_b.jpg" width="1016" height="765" alt="install firefox and vlc"/></a>
 
 <br />
-This time the scan has revealed a total of 48 vulnerablilities and 585 total results including 130 critical vulberabilities!
+This time the scan has revealed a total of 48 vulnerablilities and 585 total results including 130 critical vulnerabilities!
 <br/>
 <br/>
 
