@@ -71,39 +71,34 @@ We will now go back to the Nessus webpage. On the "My Scans" page, click on "New
 
 <br />
 Click "Save" and "Launch" to begin the credentialed scan. 
+<br />
+<br/>
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04" title=""><img src="https://live.staticflickr.com/65535/53865027028_8d8d4d29c4_b.jpg" width="993" height="213" alt=""/></a>
 
 The credentialed scan has revealed a total of 44 vulnerabilities and 348 total results including 37 critical vulnerabilities. The new scan is able to scan more in-depth compared to the non-credentialed scan. There are many vulnerabilities found because we have not updated the Windows 10 OS.
 
-![new_scan_properly_credentialed](https://user-images.githubusercontent.com/108043108/177890582-7f4d0eec-3b5f-4a5f-b708-47b3ccfb5d83.JPG)
-
-![Old_scan_not_credentialed](https://user-images.githubusercontent.com/108043108/177890589-e4e882ab-6733-4930-ad4c-1115a2c620b3.JPG)
-
-<br />
 <br />
 
 We will now download and install old deprecated software of [Mozilla Firefox](https://ftp.mozilla.org/pub/firefox/releases/) (Version 1.0) and [VLC Media Player](https://www.videolan.org/vlc/releases/) (Version 2.0.0) inside the VM and run our Nessus scanner to see how many more vulnerabilities it will detect.
+
 <br/>
 
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04/53865035303/in/dateposted-public/" title="install firefox and vlc"><img src="https://live.staticflickr.com/65535/53865035303_d51cc0350f_b.jpg" width="1016" height="765" alt="install firefox and vlc"/></a>
 
-![downloading_an_old_version_of_firefox](https://user-images.githubusercontent.com/108043108/177890787-5cd80be3-99a1-40a4-bddc-feb06ea9cda7.JPG)
-
-<br />
 <br />
 This time the scan has revealed a total of 48 vulnerablilities and 585 total results including 130 critical vulberabilities!
 <br/>
+<br/>
 
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04" title=""><img src="https://live.staticflickr.com/65535/53865040893_e88d10833c_b.jpg" width="988" height="204" alt=""/></a>
 
-![Old_Firefox_Scan](https://user-images.githubusercontent.com/108043108/177890872-ed890db9-a15d-4de9-b3b3-6723dd161f22.JPG)
-
-<br />
 <br />
 Many of the critical alerts are from Firefox with 84 critical vulnerabilities and VLC with 7 critical vulnerabilities.  
 <br />
+<br/>
 
-![Showing_Vulnerabilities](https://user-images.githubusercontent.com/108043108/177891162-cf86e335-0539-4f9f-abb2-7150b482e689.gif)
-
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04/53864803386/in/dateposted-public/" title="firefox critical"><img src="https://live.staticflickr.com/65535/53864803386_f40457aac9_b.jpg" width="999" height="675" alt="firefox critical"/></a>
 
 <h2>Remediation</h2>
  
