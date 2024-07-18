@@ -61,7 +61,7 @@ Click "Save" and "Launch" to begin the scan.
 ![Scan_Completed](https://user-images.githubusercontent.com/108043108/177888068-25d4a86a-c150-4e77-a993-9df4178c5ba1.JPG)
 
 <br />
-After a few minutes, the scan is completed. There is a total of 17 vulnerabilities and 32 total results, 30 of which are info. The info results are usually not vulnerabilities but still something that you should be aware of. There is 1 medium vulnerability named "SMB Signing not required" which may be further explored and remediated.
+After a few minutes, the scan is completed. There is a total of 17 vulnerabilities and 32 total results, 30 of which are "Info". The "Info" results are usually not vulnerabilities but still something that you should be aware of. There is 1 medium vulnerability named "SMB Signing not required" which may be further explored and remediated.
 <br/>
 <br/>
 
@@ -93,7 +93,7 @@ The credentialed scan has revealed a total of 44 vulnerabilities and 348 total r
 <br />
 <br />
 
-We will now download and install old deprecated software of Mozilla Firefox (Version 1.0) and VLC Media Player (Version 2.0.0) inside the VM and run our Nessus scanner to see how many more vulnerabilities it will detect.
+We will now download and install old deprecated software of [Mozilla Firefox](https://ftp.mozilla.org/pub/firefox/releases/) (Version 1.0) and [VLC Media Player](https://www.videolan.org/vlc/releases/) (Version 2.0.0) inside the VM and run our Nessus scanner to see how many more vulnerabilities it will detect.
 <br/>
 
 
@@ -101,7 +101,7 @@ We will now download and install old deprecated software of Mozilla Firefox (Ver
 
 <br />
 <br />
-This time the scan has revealed a total of 48 vulnerablilities and a whopping 585 total results!
+This time the scan has revealed a total of 48 vulnerablilities and 585 total results including 130 critical vulberabilities!
 <br/>
 
 
