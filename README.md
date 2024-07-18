@@ -21,51 +21,41 @@ On the VM PC, run Command Prompt and type "ipconfig" to get the IPv4 Address. Ou
 <br />
 <br />
 
-![ipconfig](https://download-files.wixmp.com/raw/25f80d_01599ac489fa47f68e5f64b83fb39393.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIiwic3ViIjoidXJuOmFwcDplNjY2MzBlNzE0ZjA0OTBhYWVhMWYxNDliM2I2OWUzMiIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sImlhdCI6MTcyMTI5OTk2MCwiZXhwIjoxNzIxMzAwODcwLCJqdGkiOiI5N2ZiNmI1OC1kYzkzLTQ2ZTItOWFlOC1iZmRmMjdmZmNkNjkiLCJvYmoiOltbeyJwYXRoIjoiL3Jhdy8yNWY4MGRfMDE1OTlhYzQ4OWZhNDdmNjhlNWY2NGI4M2ZiMzkzOTMucG5nIn1dXSwiZGlzIjp7ImZpbGVuYW1lIjoiaXBjb25maWcucG5nIiwidHlwZSI6ImlubGluZSJ9fQ.H_vORo8ZT2EdqMpBt5UXRiZ0rm_-yxKYmiOV8Shyl6A)
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04/53863828912/in/dateposted-public/" title="ipconfig"><img src="https://live.staticflickr.com/65535/53863828912_0dc0010103_b.jpg" width="1022" height="769" alt="ipconfig"/></a>
 
 <br />
 Go to the VM PC and disable the Windows Firewall for all connections (Domain Profile, Private Profile & Public Profile) which would otherwise block all connection attempts from our host PC. 
 <br />
 <br />
 
-![firewall](https://download-files.wixmp.com/raw/25f80d_34d7ed7cd1974f96aaa327fd1df349f6.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIiwic3ViIjoidXJuOmFwcDplNjY2MzBlNzE0ZjA0OTBhYWVhMWYxNDliM2I2OWUzMiIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sImlhdCI6MTcyMTMwMDAzMywiZXhwIjoxNzIxMzAwOTQzLCJqdGkiOiJjYTY5OGU5MC1iZDNiLTRlN2EtYTE2NS0xZjE3NGQwZmIyZTYiLCJvYmoiOltbeyJwYXRoIjoiL3Jhdy8yNWY4MGRfMzRkN2VkN2NkMTk3NGY5NmFhYTMyN2ZkMWRmMzQ5ZjYucG5nIn1dXSwiZGlzIjp7ImZpbGVuYW1lIjoiZmlyZXdhbGwucG5nIiwidHlwZSI6ImlubGluZSJ9fQ.AEx_L7DtKwFkzy4FGcgENyDJK7wFguyENoloJ9LGsj8)
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04" title=""><img src="https://live.staticflickr.com/65535/53864749111_12e9219e0d_c.jpg" width="817" height="710" alt=""/></a>
 
 <br />
 On the host PC, run Command Prompt and ping the VM IP Adress to ensure that there is successful connection.
 <br />
 <br />
 
-![ping](https://download-files.wixmp.com/raw/25f80d_e05e5d7ebf34493495a9b8f28cf50a6a.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIiwic3ViIjoidXJuOmFwcDplNjY2MzBlNzE0ZjA0OTBhYWVhMWYxNDliM2I2OWUzMiIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sImlhdCI6MTcyMTMwMDA4NywiZXhwIjoxNzIxMzAwOTk3LCJqdGkiOiJiNzJhODEzYy00OTk5LTQwOGEtYTExMi00NWI1NWUzM2M0OTgiLCJvYmoiOltbeyJwYXRoIjoiL3Jhdy8yNWY4MGRfZTA1ZTVkN2ViZjM0NDkzNDk1YTliOGYyOGNmNTBhNmEucG5nIn1dXSwiZGlzIjp7ImZpbGVuYW1lIjoicGluZy5wbmciLCJ0eXBlIjoiaW5saW5lIn19.KOigsPQP_gRzd8bI3leTH9kLC-CvEsn0ncdFTMWRrog)
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04/53865165230/in/dateposted-public/" title="ping"><img src="https://live.staticflickr.com/65535/53865165230_d34438fb27_b.jpg" width="983" height="513" alt="ping"/></a>
 
 <h2>Run scans</h2>
 Go to the Nessus Essentials web page and on the "My Scans" page, click "Create a new scan", then select "Basic Network Scan". 
 <br/>
 <br/>
 
-![nessus scan1](https://download-files.wixmp.com/raw/25f80d_2db61592ebbf4b12ba7541570f28d5b3.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIiwic3ViIjoidXJuOmFwcDplNjY2MzBlNzE0ZjA0OTBhYWVhMWYxNDliM2I2OWUzMiIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sImlhdCI6MTcyMTMwMDE2MSwiZXhwIjoxNzIxMzAxMDcxLCJqdGkiOiI3NzZjZDBmMi1hZjI0LTQ3YTktYjhiYi1jMWQwMzliNWE1MTMiLCJvYmoiOltbeyJwYXRoIjoiL3Jhdy8yNWY4MGRfMmRiNjE1OTJlYmJmNGIxMmJhNzU0MTU3MGYyOGQ1YjMucG5nIn1dXSwiZGlzIjp7ImZpbGVuYW1lIjoibmVzc3VzIHNjYW4xLnBuZyIsInR5cGUiOiJpbmxpbmUifX0.VChz2KUsp9lQu7qOFF420Ae2MA0n_qDBwCZ9AbOYTKQ)
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04/53865167730/in/dateposted-public/" title="nessus scan1"><img src="https://live.staticflickr.com/65535/53865167730_1d35afab73_b.jpg" width="1024" height="581" alt="nessus scan1"/></a>
 <br />
 <br />
 We will name the scan "Windows 10" and in "Targets" we will enter the VM's IP address which in our case is 192.168.213.128.
 
-![nessus scan config](https://download-files.wixmp.com/raw/25f80d_2553fce696ab479fbae5a294d22f56d7.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIiwic3ViIjoidXJuOmFwcDplNjY2MzBlNzE0ZjA0OTBhYWVhMWYxNDliM2I2OWUzMiIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sImlhdCI6MTcyMTMwMDQxNywiZXhwIjoxNzIxMzAxMzI3LCJqdGkiOiIxYWEzNzdhMS03NjViLTRmZmItYTc2OS00Y2E4NDBhYWE5MTQiLCJvYmoiOltbeyJwYXRoIjoiL3Jhdy8yNWY4MGRfMjU1M2ZjZTY5NmFiNDc5ZmJhZTVhMjk0ZDIyZjU2ZDcucG5nIn1dXSwiZGlzIjp7ImZpbGVuYW1lIjoibmVzc3VzIHNjYW4gY29uZmlnLnBuZyIsInR5cGUiOiJpbmxpbmUifX0.MdRQovkw87j2vbWGVxdDx4k82p8jfSVf5-9lOBdX59Q)
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04/53864757071/in/dateposted-public/" title="nessus scan config"><img src="https://live.staticflickr.com/65535/53864757071_03d24369a7_b.jpg" width="1024" height="613" alt="nessus scan config"/></a>
 
 <br />
 Click "Save" and "Launch" to begin the scan.
-<br />
-<br />
-
-![Launch_newly_created_scan](https://user-images.githubusercontent.com/108043108/177888041-95c53001-b8d2-4355-9311-3ee2637dff94.JPG)
-
-![Scan_Running](https://user-images.githubusercontent.com/108043108/177888049-661dddfc-ebe0-42cf-ad87-14bc5af53fe5.gif)
-
-![Scan_Completed](https://user-images.githubusercontent.com/108043108/177888068-25d4a86a-c150-4e77-a993-9df4178c5ba1.JPG)
-
-<br />
 After a few minutes, the scan is completed. There is a total of 17 vulnerabilities and 32 total results, 30 of which are "Info". The "Info" results are usually not vulnerabilities but still something that you should be aware of. There is 1 medium vulnerability named "SMB Signing not required" which may be further explored and remediated.
 <br/>
 <br/>
 
-![Results_Of_Scan](https://user-images.githubusercontent.com/108043108/177888196-3141c52f-df79-4c58-9fee-5daa68d78c5b.gif)
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04" title=""><img src="https://live.staticflickr.com/65535/53864760126_9b5f860ee3_b.jpg" width="1055" height="216" alt=""/></a>
 
 <br />
 We have completed a non-credentialed scan. We will now configure the VM to be able to accept credentialed scans and rescan the VM to compare the results. Tenable Nessus recommends several steps before running the credentialed scans. Click on the links below for a step-by-step guide.
@@ -74,17 +64,17 @@ We have completed a non-credentialed scan. We will now configure the VM to be ab
 - [Disable Windows User Account Control (UAC)](https://www.howtogeek.com/247/disable-user-account-control-uac-the-easy-way-on-windows/)
 - [Disable UAC remote restrictions](https://learn.microsoft.com/en-us/troubleshoot/windows-server/windows-security/user-account-control-and-remote-restriction)
 
-We will now go back to the Nessus webpage. On the "My Scans" page, click on "New Scan" and then "Basic Network Scan". We will name this scan "Windows 10 with credentials" and in "Targets" we will input our IP address (192.168.213.128). We will then go to the "Credentials" tab and enter our VM Windows 10 Username and Password. Click "Save" and "Launch" to begin the credentialed scan.
+We will now go back to the Nessus webpage. On the "My Scans" page, click on "New Scan" and then "Basic Network Scan". We will name this scan "Windows 10 with credentials" and in "Targets" we will input our IP address (192.168.213.128). We will then go to the "Credentials" tab and enter our VM Windows 10 Username and Password. 
 <br />
 
-![Configure_Nessus](https://user-images.githubusercontent.com/108043108/177890138-e6420231-4ce8-4a2d-99fb-e1e992da6ebb.JPG)
-
-![Adding_Credentials](https://user-images.githubusercontent.com/108043108/177890151-27496a20-72b8-4763-8c82-368a06a15d3f.gif)
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04" title=""><img src="https://live.staticflickr.com/65535/53864770416_32fd5bac0e_b.jpg" width="977" height="380" alt=""/></a>
 
 <br />
-<br />
+Click "Save" and "Launch" to begin the credentialed scan. 
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04" title=""><img src="https://live.staticflickr.com/65535/53865027028_8d8d4d29c4_b.jpg" width="993" height="213" alt=""/></a>
+
 The credentialed scan has revealed a total of 44 vulnerabilities and 348 total results including 37 critical vulnerabilities. The new scan is able to scan more in-depth compared to the non-credentialed scan. There are many vulnerabilities found because we have not updated the Windows 10 OS.
-
 
 ![new_scan_properly_credentialed](https://user-images.githubusercontent.com/108043108/177890582-7f4d0eec-3b5f-4a5f-b708-47b3ccfb5d83.JPG)
 
