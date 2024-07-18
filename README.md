@@ -127,6 +127,12 @@ Another critical vulnerability is from Microsoft 365 which may be remediated aft
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/201091502@N04" title=""><img src="https://live.staticflickr.com/65535/53864834811_ee71c8f4f4_b.jpg" width="936" height="624" alt=""/></a>
 
+<h2>Conclusion</h2>
+
+This experience has underscored the critical importance of proactive and thorough security measures in safeguarding our systems and data. Through conducting these scans, we have gained invaluable insights into the diverse vulnerabilities that can exist within our infrastructure.
+
+The process has not only deepened our understanding of vulnerability management tools and techniques but has also highlighted the significance of timely updates and diligent patch management. By implementing remediation actions such as updating Windows and uninstalling deprecated software, we have taken concrete steps towards mitigating potential risks and enhancing our overall security posture.
+
 <br />
 <br />
 
