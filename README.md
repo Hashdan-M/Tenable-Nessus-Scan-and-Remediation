@@ -21,33 +21,33 @@ On the VM PC, run Command Prompt and type "ipconfig" to get the IPv4 Address. Ou
 <br />
 <br />
 
-![ipconfig](https://raw.githubusercontent.com/Hashdan-M/images/main/ipconfig.PNG?token=GHSAT0AAAAAACU4JCPCXNYZS4GOO4EQPRKMZUX7XMQ)
+![ipconfig](https://download-files.wixmp.com/raw/25f80d_01599ac489fa47f68e5f64b83fb39393.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIiwic3ViIjoidXJuOmFwcDplNjY2MzBlNzE0ZjA0OTBhYWVhMWYxNDliM2I2OWUzMiIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sImlhdCI6MTcyMTI5OTk2MCwiZXhwIjoxNzIxMzAwODcwLCJqdGkiOiI5N2ZiNmI1OC1kYzkzLTQ2ZTItOWFlOC1iZmRmMjdmZmNkNjkiLCJvYmoiOltbeyJwYXRoIjoiL3Jhdy8yNWY4MGRfMDE1OTlhYzQ4OWZhNDdmNjhlNWY2NGI4M2ZiMzkzOTMucG5nIn1dXSwiZGlzIjp7ImZpbGVuYW1lIjoiaXBjb25maWcucG5nIiwidHlwZSI6ImlubGluZSJ9fQ.H_vORo8ZT2EdqMpBt5UXRiZ0rm_-yxKYmiOV8Shyl6A)
 
 <br />
 Go to the VM PC and disable the Windows Firewall for all connections (Domain Profile, Private Profile & Public Profile) which would otherwise block all connection attempts from our host PC. 
 <br />
 <br />
 
-![firewall](https://raw.githubusercontent.com/Hashdan-M/images/main/firewall.PNG?token=GHSAT0AAAAAACU4JCPDON3J5N6RYGTPIIK4ZUX727A)
+![firewall](https://download-files.wixmp.com/raw/25f80d_34d7ed7cd1974f96aaa327fd1df349f6.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIiwic3ViIjoidXJuOmFwcDplNjY2MzBlNzE0ZjA0OTBhYWVhMWYxNDliM2I2OWUzMiIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sImlhdCI6MTcyMTMwMDAzMywiZXhwIjoxNzIxMzAwOTQzLCJqdGkiOiJjYTY5OGU5MC1iZDNiLTRlN2EtYTE2NS0xZjE3NGQwZmIyZTYiLCJvYmoiOltbeyJwYXRoIjoiL3Jhdy8yNWY4MGRfMzRkN2VkN2NkMTk3NGY5NmFhYTMyN2ZkMWRmMzQ5ZjYucG5nIn1dXSwiZGlzIjp7ImZpbGVuYW1lIjoiZmlyZXdhbGwucG5nIiwidHlwZSI6ImlubGluZSJ9fQ.AEx_L7DtKwFkzy4FGcgENyDJK7wFguyENoloJ9LGsj8)
 
 <br />
 On the host PC, run Command Prompt and ping the VM IP Adress to ensure that there is successful connection.
 <br />
 <br />
 
-![ping](https://raw.githubusercontent.com/Hashdan-M/images/main/ping.PNG?token=GHSAT0AAAAAACU4JCPC5PA3T7UBLR75L2UOZUX7YKA)
+![ping](https://download-files.wixmp.com/raw/25f80d_e05e5d7ebf34493495a9b8f28cf50a6a.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIiwic3ViIjoidXJuOmFwcDplNjY2MzBlNzE0ZjA0OTBhYWVhMWYxNDliM2I2OWUzMiIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sImlhdCI6MTcyMTMwMDA4NywiZXhwIjoxNzIxMzAwOTk3LCJqdGkiOiJiNzJhODEzYy00OTk5LTQwOGEtYTExMi00NWI1NWUzM2M0OTgiLCJvYmoiOltbeyJwYXRoIjoiL3Jhdy8yNWY4MGRfZTA1ZTVkN2ViZjM0NDkzNDk1YTliOGYyOGNmNTBhNmEucG5nIn1dXSwiZGlzIjp7ImZpbGVuYW1lIjoicGluZy5wbmciLCJ0eXBlIjoiaW5saW5lIn19.KOigsPQP_gRzd8bI3leTH9kLC-CvEsn0ncdFTMWRrog)
 
 <h2>Run scans</h2>
 Go to the Nessus Essentials web page and on the "My Scans" page, click "Create a new scan", then select "Basic Network Scan". 
 <br/>
 <br/>
 
-![basic_network_scan](https://user-images.githubusercontent.com/108043108/177887672-2d955508-edf1-4735-b78a-2836a81d2c9f.JPG)
+![nessus scan1](https://download-files.wixmp.com/raw/25f80d_2db61592ebbf4b12ba7541570f28d5b3.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIiwic3ViIjoidXJuOmFwcDplNjY2MzBlNzE0ZjA0OTBhYWVhMWYxNDliM2I2OWUzMiIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sImlhdCI6MTcyMTMwMDE2MSwiZXhwIjoxNzIxMzAxMDcxLCJqdGkiOiI3NzZjZDBmMi1hZjI0LTQ3YTktYjhiYi1jMWQwMzliNWE1MTMiLCJvYmoiOltbeyJwYXRoIjoiL3Jhdy8yNWY4MGRfMmRiNjE1OTJlYmJmNGIxMmJhNzU0MTU3MGYyOGQ1YjMucG5nIn1dXSwiZGlzIjp7ImZpbGVuYW1lIjoibmVzc3VzIHNjYW4xLnBuZyIsInR5cGUiOiJpbmxpbmUifX0.VChz2KUsp9lQu7qOFF420Ae2MA0n_qDBwCZ9AbOYTKQ)
 <br />
 <br />
 We will name the scan "Windows 10" and in "Targets" we will enter the VM's IP address which in our case is 192.168.213.128.
 
-![Scan_VM_IP](https://user-images.githubusercontent.com/108043108/177887914-87a2da10-be51-481c-a672-ec1104e3df7a.JPG)
+![nessus scan config](https://download-files.wixmp.com/raw/25f80d_2553fce696ab479fbae5a294d22f56d7.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YXBwOmU2NjYzMGU3MTRmMDQ5MGFhZWExZjE0OWIzYjY5ZTMyIiwic3ViIjoidXJuOmFwcDplNjY2MzBlNzE0ZjA0OTBhYWVhMWYxNDliM2I2OWUzMiIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sImlhdCI6MTcyMTMwMDQxNywiZXhwIjoxNzIxMzAxMzI3LCJqdGkiOiIxYWEzNzdhMS03NjViLTRmZmItYTc2OS00Y2E4NDBhYWE5MTQiLCJvYmoiOltbeyJwYXRoIjoiL3Jhdy8yNWY4MGRfMjU1M2ZjZTY5NmFiNDc5ZmJhZTVhMjk0ZDIyZjU2ZDcucG5nIn1dXSwiZGlzIjp7ImZpbGVuYW1lIjoibmVzc3VzIHNjYW4gY29uZmlnLnBuZyIsInR5cGUiOiJpbmxpbmUifX0.MdRQovkw87j2vbWGVxdDx4k82p8jfSVf5-9lOBdX59Q)
 
 <br />
 Click "Save" and "Launch" to begin the scan.
@@ -114,8 +114,9 @@ Many of the critical alerts are from Firefox with 84 critical vulnerabilities an
 
 ![Showing_Vulnerabilities](https://user-images.githubusercontent.com/108043108/177891162-cf86e335-0539-4f9f-abb2-7150b482e689.gif)
 
-<br />
-<br />
+
+<h2>Remediation</h2>
+ 
 We will now start the process of remediating the vulnerabilities by updating our Windows 10 to the latest version and uninstalling and deleting Firefox and VLC.
 <br />
 
@@ -138,7 +139,10 @@ We will run a final Nessus scan to see the results after remediation.
 
 <br />
 <br />
-Here is a final comparison between the four scans I took while doing this lab. The last picture is the after remediation scan. There we can see a lot of the vulnerabilities that were being alerted are gone! Still a 1 critical but I'll remediate that another time!</b>  <br/>
+Most of the critical vulnerabilities have been remediated, though there is still 2 critical vulnerabilities. One of the vulnerabilities is due to the Windows browser still using Internet Explorer. We should change to Microsoft Edge to fix this issue.
+<br />
+<br />
+Another critical vulnerability is from Microsoft 365 which may be remediated after running another Windows Update or installing the update manually.
 
 ![After_Vulnerability_Remediation](https://user-images.githubusercontent.com/108043108/177891719-3066c9bb-38dd-4b10-b8bb-6f9dd8a45a09.JPG)
 
